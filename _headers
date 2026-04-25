@@ -1,0 +1,11 @@
+# 解决 Unity br 压缩文件 404 问题
+/*.wasm
+  Content-Type: application/wasm
+
+/*.br
+  Content-Encoding: br
+  Content-Type: application/octet-stream
+
+/*.gz
+  Content-Encoding: gzip
+  Content-Type: application/octet-stream
